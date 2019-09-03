@@ -30,22 +30,27 @@
                 Grid.Column="0" Margin="208,0,37,0" >
             Remover Contato</Button>
 
-        <TextBlock FontSize="20" Grid.Row="2"
+        <TextBlock Background="Aqua" FontSize="15" Grid.Row="1"
                    Grid.Column="0">Nome:</TextBlock>
-        
-        <TextBlock FontSize="20" Grid.Row="3"
+
+        <TextBlock Background="Aqua" FontSize="15" Grid.Row="2"
                    Grid.Column="0">Sobrenome:</TextBlock>
 
-        <TextBlock FontSize="20" Grid.Row="4"
-                   Grid.Column="0">Data:</TextBlock>
+        <TextBlock Background="Aqua" FontSize="15" Grid.Row="3"
+                   Grid.Column="0">Data de Nascimento:</TextBlock>
 
-        <TextBlock FontSize="20" Grid.Row="5"
+        <TextBlock Background="Aqua" FontSize="15" Grid.Row="4"
                    Grid.Column="0">Telefone:</TextBlock>
 
-        <TextBlock FontSize="20" Grid.Row="6"
+        <TextBlock Background="Aqua" FontSize="20" Grid.Row="5"
                    Grid.Column="0">Compromissos:</TextBlock>
 
-
+        <Button x:Name="OkButton" Click="OkButton_Click"
+                 Margin="98,10,129,15" Grid.Row="7" >
+            SALVAR</Button>
+        <Button x:Name="CancelarButton" Click="CancelarButton_Click"
+                 Margin="115,10,112,15" Grid.Row="7" Grid.Column="2" >
+            CANCELAR</Button>
 
     </Grid>
 </Window>

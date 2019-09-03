@@ -10,28 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace AgendaPessoas
 {
     /// <summary>
-    /// Interação lógica para MainWindow.xam
+    /// Lógica interna para Compromissos.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Compromissos : Window
     {
-        public MainWindow()
+        public Compromissos()
         {
             InitializeComponent();
-            this.DataContext = this;
-        }
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            //ModelAviacao ctx = new ModelAviacao();
-            //var pessoa = ctx.Pessoas.First();
-            Contatos wp = new Contatos();
-            //wp.Pessoa = pessoa;
-            wp.Show();
         }
     }
 }
