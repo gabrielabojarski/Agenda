@@ -31,9 +31,21 @@ namespace AgendaPessoas
         {
             //ModelAviacao ctx = new ModelAviacao();
             //var pessoa = ctx.Pessoas.First();
-            sContatos wp = new sContatos();
+            Contatos wp = new Contatos();
             //wp.Pessoa = pessoa;
             wp.Show();
+        }
+        private void Button_Click2(object sender, RoutedEventArgs e)
+        {
+            //ModelAviacao ctx = new ModelAviacao();
+            //var pessoa = ctx.Pessoas.First();
+            Compromissos wp2 = new Compromissos();
+            //wp.Pessoa = pessoa;
+            wp2.Show();
+        }
+        private void CancelarButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
 
 

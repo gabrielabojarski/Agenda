@@ -32,10 +32,7 @@ namespace AgendaPessoas
             this.DataContext = this;
         }
 
-        private void InitializeComponent()
-        {
-            throw new NotImplementedException();
-        }
+      
 
         private void OkButton_Click(object sender, RoutedEventArgs e)
         {
@@ -72,6 +69,11 @@ namespace AgendaPessoas
         {
             this.PessoasViewModel.Salvar();
             this.Close();
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

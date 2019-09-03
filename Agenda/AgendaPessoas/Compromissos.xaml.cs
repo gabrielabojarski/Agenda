@@ -23,5 +23,9 @@ namespace AgendaPessoas
         {
             InitializeComponent();
         }
+        private void CancelarButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

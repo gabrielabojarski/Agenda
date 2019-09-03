@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="Compromissos" Height="450" Width="800">
     <Grid>
-        <Button DatePicker.SelectedDateChanged="data"></Button>
+        <Button x:Name="CancelarButton" Click="CancelarButton_Click"
+                 Margin="406,360,82,18" >
+            CANCELAR</Button>
     </Grid>
 </Window>
