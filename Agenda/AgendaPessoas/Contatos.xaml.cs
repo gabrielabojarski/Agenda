@@ -63,5 +63,10 @@ namespace AgendaPessoas
         {
             this.PessoasViewModel.Adicionar();
         }
+        private void SalvarButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.PessoasViewModel.Salvar();
+            this.Close();
+        }
     }
 }

@@ -33,5 +33,38 @@ namespace AgendaPessoas
             //wp.Pessoa = pessoa;
             wp.Show();
         }
+
+
+        private void OkButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.PessoasViewModel.Salvar();
+            this.Close();
+        }
+        private void Ok1Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.PessoasViewModel.Salvar();
+            this.Close();
+        }
+        private void Ok2Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.PessoasViewModel.Salvar();
+            this.Close();
+        }
+
+        private void CancelarButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+
+        private void RemoverButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.PessoasViewModel.Remover();
+        }
+
+        private void AdicionarButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.PessoasViewModel.Adicionar();
+        }
     }
 }

@@ -45,7 +45,7 @@
         <TextBlock Background="Aqua" FontSize="20" Grid.Row="5"
                    Grid.Column="0">Compromissos:</TextBlock>
 
-        <Button x:Name="OkButton" Click="OkButton_Click"
+        <Button x:Name="SalvarButton" Click="SalvarButton_Click"
                  Margin="98,10,129,15" Grid.Row="7" >
             SALVAR</Button>
         <Button x:Name="CancelarButton" Click="CancelarButton_Click"
