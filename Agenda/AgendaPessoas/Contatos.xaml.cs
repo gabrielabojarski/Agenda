@@ -17,7 +17,7 @@ namespace AgendaPessoas
     /// <summary>
     /// Lógica interna para Contatos.xaml
     /// </summary>
-    public partial class Contatos : Window
+    public partial class sContatos : Window
     {
         public Contatos()
         {

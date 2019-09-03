@@ -20,6 +20,8 @@ namespace AgendaPessoas
     /// </summary>
     public partial class MainWindow : Window
     {
+        public object PessoasViewModel { get; private set; }
+
         public MainWindow()
         {
             InitializeComponent();
@@ -37,17 +39,17 @@ namespace AgendaPessoas
 
         private void OkButton_Click(object sender, RoutedEventArgs e)
         {
-            this.PessoasViewModel.Salvar();
+            this.PessoasViewModel.Ok();
             this.Close();
         }
         private void Ok1Button_Click(object sender, RoutedEventArgs e)
         {
-            this.PessoasViewModel.Salvar();
+            this.PessoasViewModel.Ok1();
             this.Close();
         }
         private void Ok2Button_Click(object sender, RoutedEventArgs e)
         {
-            this.PessoasViewModel.Salvar();
+            this.PessoasViewModel.Ok2();
             this.Close();
         }
 
