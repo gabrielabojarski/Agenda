@@ -20,7 +20,7 @@ namespace AgendaPessoas.ViewModel
             }
         }
 
-        public Pessoa CompromissoSelecionado { get; set; }
+        public Compromisso CompromissoSelecionado { get; set; }
         private ModelAgenda context { get; set; }
         public CompromissosViewModel()
         {
@@ -29,7 +29,7 @@ namespace AgendaPessoas.ViewModel
                 new ObservableCollection<Compromisso>(
                 context.Compromissos.ToList());
             this.CompromissoSelecionado = context
-                .Pessoas.FirstOrDefault();
+                .Compromissos.FirstOrDefault();
         }
 
         public void Remover()
