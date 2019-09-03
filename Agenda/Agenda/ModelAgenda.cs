@@ -24,7 +24,7 @@ namespace Agenda
 
         public virtual DbSet<Pessoa> Pessoas { get; set; }
         public virtual DbSet<Compromisso> Compromissos { get; set; }
-        DbSet<Pessoa> ModelAgenda.Pessoas { get; set; }
+       
     }
 
     //public class MyEntity

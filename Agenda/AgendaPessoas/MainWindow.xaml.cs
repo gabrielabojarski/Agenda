@@ -31,42 +31,16 @@ namespace AgendaPessoas
         {
             //ModelAviacao ctx = new ModelAviacao();
             //var pessoa = ctx.Pessoas.First();
-            Contatos wp = new Contatos();
+            sContatos wp = new sContatos();
             //wp.Pessoa = pessoa;
             wp.Show();
         }
 
 
-        private void OkButton_Click(object sender, RoutedEventArgs e)
-        {
-            this.PessoasViewModel.Ok();
-            this.Close();
-        }
-        private void Ok1Button_Click(object sender, RoutedEventArgs e)
-        {
-            this.PessoasViewModel.Ok1();
-            this.Close();
-        }
-        private void Ok2Button_Click(object sender, RoutedEventArgs e)
-        {
-            this.PessoasViewModel.Ok2();
-            this.Close();
-        }
-
-        private void CancelarButton_Click(object sender, RoutedEventArgs e)
-        {
-            this.Close();
-        }
 
 
-        private void RemoverButton_Click(object sender, RoutedEventArgs e)
-        {
-            this.PessoasViewModel.Remover();
-        }
 
-        private void AdicionarButton_Click(object sender, RoutedEventArgs e)
-        {
-            this.PessoasViewModel.Adicionar();
-        }
     }
 }
+    
+

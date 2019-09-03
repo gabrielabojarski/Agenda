@@ -17,13 +17,14 @@ namespace AgendaPessoas
     /// <summary>
     /// Lógica interna para Contatos.xaml
     /// </summary>
-    public partial class sContatos : Window
+    public partial class Contatos : Window
     {
-        public Contatos()
-        {
-            InitializeComponent();
-        }
+       
+    
+
         public ViewModel.PessoasViewModel PessoasViewModel { get; set; }
+
+
         public Contatos()
         {
             InitializeComponent();
@@ -31,6 +32,10 @@ namespace AgendaPessoas
             this.DataContext = this;
         }
 
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
+        }
 
         private void OkButton_Click(object sender, RoutedEventArgs e)
         {
