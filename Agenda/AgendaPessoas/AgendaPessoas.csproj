@@ -69,6 +69,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ViewModel\CompromissosViewModel.cs" />
     <Compile Include="ViewModel\PessoasViewModel.cs" />
     <Page Include="Contatos.xaml">
       <SubType>Designer</SubType>
