@@ -20,20 +20,20 @@
                   DisplayMemberPath="Nome" SelectedItem="{Binding Path=PessoasViewModel.PessoaSelecionada}">
         </ListView>
 
-        <Button x:Name="AdicionarButton" Click="AdicionarButton_Click"
+        <Button x:Name="OkButton" Click="OkButton_Click"
                  Margin="0,0,10,338" Grid.RowSpan="5" Grid.ColumnSpan="2" >
             Contatos</Button>
-
-        <Button x:Name="RemoverButton" Click="RemoverButton_Click" 
+      
+        <Button x:Name="Ok1Button" Click="Ok1Button_Click" 
             IsEnabled="{Binding Path=PessoasViewModel.PodeRemover}" Margin="0,82,10,252" Grid.Row="4" Grid.ColumnSpan="2">
             Compromissos</Button>
 
         <Button 
-            x:Name="OkButton"
+            x:Name="Ok2Button"
             Content="Finalizar" 
             HorizontalAlignment="Center" 
             Grid.Row="4" 
-            Click="OkButton_Click"
+            Click="Ok2Button_Click"
             VerticalAlignment="Center" 
             Margin="0,168,10,158"
             Width="782" Height="89" Grid.ColumnSpan="2"/>
